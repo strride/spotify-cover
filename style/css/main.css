@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Nighty';
-  src: url('../fonts/nighty.otf') format('opentype');
+  src: url('../../assets/fonts/nighty.otf') format('truetype');
 }
 
 body,
@@ -78,3 +78,20 @@ h1 {
 footer {
   margin-top: auto;
 }
+
+ .download {
+  background-color: #dbfbf6;
+  color: #072723;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border: solid 1px #072723;
+  border-radius: 5px;
+}
+
+.download:hover {
+  background-color: #072723;
+  color: #dbfbf6;
+  border: solid 1px #dbfbf6;
+
+} 
