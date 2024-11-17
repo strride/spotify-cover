@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Nighty';
+  src: url('../fonts/nighty.otf') format('opentype');
+}
+
+body,
+html {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #072723;
+  color: #dbfbf6;
+}
+
+a {
+  color: #dbfbf6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f4f4f4;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.nighty {
+  font-family: 'Nighty';
+}
+
+.arial {
+  font-family: Arial, sans-serif;
+}
+
+.highlight-text {
+  background-color: #dbfbf6;
+  color: #072723;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin: 0 2px;
+}
+
+.highlight-text:hover {
+  background-color: #f4f4f4;
+  color: #072723;
+}
+
+.button {
+  background-color: #072723;
+  color: #dbfbf6;
+  border-radius: 3px;
+  border: 1px solid #dbfbf6;
+}
+
+.button:hover {
+  background-color: #dbfbf6;
+  color: #072723;
+}
+
+.input {
+  border-radius: 3px;
+  border: 1px solid #dbfbf6;
+  background-color: #072723;
+  color: #dbfbf6;
+}
+
+#input::placeholder {
+  color: #dbfbf6;
+}
+
+#input:focus {
+  background-color: #072723;
+  color: #dbfbf6;
+}
+
+footer {
+  margin-top: auto;
+}
